@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laundry Wallah / Laundry Mart</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -16,12 +17,15 @@
 
     <!-- Main Section Starts Here -->
     <main>
+        
         <section id="about">
             <p>Welcome to Laundry Wallah / Laundry Mart, your one-stop solution for all your laundry needs. Our
                 dedicated team ensures top-notch service, providing a hassle-free and efficient laundry experience. With
                 a focus on quality and customer satisfaction, we take care of your garments as if they were our own.</p>
         </section>
-        <section id="image"><img src="laundry.jpeg" alt="Laundry image"></section>
+
+        <section id="image"><img src="./images/laundry.jpeg" alt="Laundry image"></section>
+
         <section id="services">
             <h2>Our Services</h2>
             <ul>
@@ -34,6 +38,7 @@
                 <li>And more</li>
             </ul>
         </section>
+
         <section id="priceList">
             <h2>Price List</h2>
             <table border>
@@ -55,18 +60,20 @@
                 </tbody>
             </table>
         </section>
+
         <section id="bookNow">
             <h2>Book Now</h2>
             <form action="">
                 <label for="name">Name:</label>
-                <input type="text" id="name">
+                <input type="text" id="name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email">
+                <input type="email" id="email" required>
                 <label for="phone">Phone:</label>
-                <input type="number" id="phone">
+                <input type="number" id="phone" required>
                 <input type="submit">
             </form>
         </section>
+
     </main>
     <!-- Main Section Ends Here -->
 
